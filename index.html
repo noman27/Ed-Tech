@@ -28,7 +28,7 @@
                   <a class="nav-link active ms-5 me-5" aria-current="page" href="#">Home</a>
                   <a class="nav-link ms-5 me-5" href="#course">Courses</a>
                   <a class="nav-link ms-5 me-5" href="#">Deals</a>
-                  <a class="nav-link ms-5 me-5" href="#">Success</a>
+                  <a class="nav-link ms-5 me-5" href="#success">Success</a>
                   <a class="nav-link ms-5 me-5" href="#">About</a>
                   <a class="nav-link ms-5 me-5" href="#">Register</a>
                   <button class="btn btn-outline-info ms-5 me-5" type="submit">Register</button>
@@ -180,8 +180,119 @@
           </div>
       </section>
       <!-- courses section end -->
-
-
+      
+      <!-- succesful students start -->
+      <section id="success" class="container">
+        <h1 class="h1 ">Meet Our Successfull <br> Students</h1>
+        <p class="">Here are our students who achieved their goal by taking our courses.</p>
+        <div>
+          <div class="row g-4">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jon Snow</h5>
+                  <p class="card-text">UI/UX designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Elizabeth Murphy</h5>
+                  <p class="card-text">Motion designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Tyron Josh</h5>
+                  <p class="card-text">Graphics designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="card h-100">
+                <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jessica Jones</h5>
+                  <p class="card-text">Web developer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center my-5">
+          <button type="button" class="btn btn-info text-white justify-content-center">View All</button>
+        </div>
+      </section>
+      <!-- succesful students end -->
+      
+      <!-- Frequently asked questions start -->
+      <section>
+        <p class="h1 text-center my-5 titles">Frequently Asked Questions</p>
+        <p class="text-center normal-text">Here are some questions with answers which has been asked most often</p>
+        <div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is the difference between  <strong> Flex </strong> and <strong> Grid </strong>?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  1.Flex is one dimentional whereas Grid is two dimentional. <br> 2.Grid is layout first on the other hand Flex is content first. <br> 3. Grid can flex combination of items through space-occupying Features. On the Contrary Flex can push content element to extreme alignment.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  What is the difference between Tailwind and Bootstrap?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <strong>Tailwind:</strong><br>
+                    Tailwind offers predesigned widgets to build a site from scratch with fast UI development.
+                    <br>
+                    <strong>Bootstrap:</strong><br>
+                    Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is CSS boxmodel?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What is semantic tag?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way. Elements such as header , footer and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently asked questions end -->
     </main>
     
     <footer>
